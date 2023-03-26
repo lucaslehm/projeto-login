@@ -35,4 +35,10 @@
     #formulario > p {
         font-size: 1.0em;
     }
+    #formulario a {
+        font-size: 1.0em;
+    }
+    .tm {
+        font-size: 1.0em;
+    }
 }
