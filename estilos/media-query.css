@@ -18,6 +18,9 @@
     #formulario > p {
         font-size: 1.0em;
     }
+    .campo > input {
+        transform: translateY(-10px);
+    }
 }
 @media screen and (min-width: 992px) { /*Telas Grandes*/
     section#login {
