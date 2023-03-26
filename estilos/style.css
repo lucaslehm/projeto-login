@@ -29,12 +29,12 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: white;
     width: 320px;
-    height: 630px;
+    height: 550px;
     border-radius: 15px;
     overflow: hidden;
+    transform: translate(-50%, -50%);
     transition: width .3s, height 0.3s;
     transition-timing-function: ease;
 }
@@ -56,10 +56,85 @@ section#login > div#formulario {
 }
 #formulario > p {
     font-size: 0.8em;
+    margin-bottom: 8px;
+    line-height: 17px;
 }
 #formulario a {
     font-size: 0.8em;
 }
 .tm {
     font-size: 0.8em;
+}
+form > input[type=submit] {
+    font-size: 0.8em;
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: var(--cor4);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover {
+    background-color: #cf6c56;
+}
+form label {
+    display: none;
+}
+.esqueci {
+    margin-top: 5px;
+}
+.esqueci > a {
+    text-decoration: none;
+    color: var(--cor4);
+    font-weight: bold;
+}
+.esqueci > a:hover {
+    color: #cf6c56;
+    text-decoration: underline;
+}
+.campo {
+    background-color: #5d7482;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 7px 0px;
+    border: 2px solid var(--cor0);
+}
+.campo > span {
+    color: white;
+    font-size: 1.7em;
+    width: 40px;
+    padding: 6px;
+}
+.campo > input {
+    background-color: var(--cor1);
+    font-size: 0.8em;
+    width: calc(100% - 44.2px);
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+    transform: translateY(-11px);
+}
+.campo > input:focus-within {
+    background-color: white;
+}
+.criar {
+    margin-top: 20px;
+}
+.criar > input[type=button] {
+    margin-top: 10px;
+    font-size: 0.8em;
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: var(--cor4);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.criar > input[type=button]:hover {
+    background-color: #cf6c56;
 }
